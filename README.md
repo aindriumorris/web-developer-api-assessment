@@ -1,45 +1,56 @@
-### Web Development Technical Assessment
+Diligent Web Developer Assessment by Andrew Morris
+This repository contains a Next.js application that showcases modern web development practices including the use of Mantine UI, Material-UI, Axios for data fetching, Zod for data validation, and more. The project is designed to demonstrate proficiency in React and Next.js, along with integrating third-party libraries and APIs.
 
-#### Task Description:
-You are tasked with creating a web application that retrieves data from the Open Movie Database (OMDb) API and displays it on a listing page. The page should include cards for each movie, displaying information such as title, poster, release date, and rating. Additionally, the application should allow users to filter the movies based on release date and rating, as well as sorting them in alphabetical and reverse alphabetical order.
+Prerequisites
+Before you begin, ensure you have the following installed on your system:
 
-#### Requirements:
-1. Retrieve movie data from the OMDb API (http://www.omdbapi.com/). You can sign up for a free API key on the OMDb website.
-2. Display movie information on a listing page using cards.
-3. Each card should include at least:
-   - Title
-   - Poster image
-   - Release date
-   - Rating
-4. Implement filters for:
-   - Release date
-   - Rating
-5. Implement sorting options for:
-   - Alphabetical order
-   - Reverse alphabetical order
-6. Ensure the application is responsive and works well on different screen sizes.
-7. Add your project to GitHub and share the repository link with us upon completion.
+Node.js (v14 or newer)
+npm (v6 or newer)
+Getting Started
+To get started with this project, clone the repository and install its dependencies.
 
-#### Additional Guidelines:
-- Use modern web development technologies and best practices.
-- Please use React as the framework for this project. You are free to choose any variety of React (e.g., Vite, Next.js, etc.)..
-- Document your code appropriately with comments where necessary.
-- Pay attention to user experience and design aesthetics.
-- Test your application to ensure it functions as expected.
-- Provide clear instructions on how to run your project locally, including any dependencies.
-- Commit your changes frequently with descriptive commit messages.
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/diligent-web-developer-assessment-andrew-morris.git
+cd diligent-web-developer-assessment-andrew-morris
+Install dependencies:
+bash
+Copy code
+npm install
+Run the development server:
+bash
+Copy code
+npm run dev
+Open http://localhost:3000 with your browser to see the result.
 
-#### Instructions for Connecting to OMDb API:
-1. Sign up for a free API key on the OMDb website (http://www.omdbapi.com/apikey.aspx).
-2. Once you have your API key, you can use it to make requests to the OMDb API.
-3. Refer to the OMDb API documentation (http://www.omdbapi.com/) for details on how to structure your requests and the data that is returned.
-4. Use your API key when making requests to the OMDb API in your web application code.
+Building for Production
+To build the application for production, run:
 
-#### Submission:
-- Provide us with the GitHub repository link to your completed project.
-- If you encounter any issues or have questions, feel free to reach out for clarification.
+bash
+Copy code
+npm run build
+You can start the production server with:
 
-#### Deadline:
-Please complete this assessment within [provide a reasonable time frame].
+bash
+Copy code
+npm start
+Linting
+To lint the application, run:
 
-Good luck! We look forward to reviewing your submission.
+bash
+Copy code
+npm run lint
+Contributing
+Contributions are welcome! Please read our contributing guidelines for details on how to submit contributions to this project.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+Next.js Documentation - learn about Next.js features and API.
+Mantine UI - a fully featured React components library.
+Material-UI - React components for faster and easier web development.
+Axios - Promise based HTTP client for the browser and node.js.
+Zod - TypeScript-first schema validation with static type inference.
+Lodash - A modern JavaScript utility library delivering modularity, performance, & extras.
