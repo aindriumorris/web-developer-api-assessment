@@ -25,7 +25,11 @@ To get started with this project, clone the repository and install its dependenc
     npm install
     ```
 
-3. Run the development server:
+3. Get API Key:
+    Sign up for free api key from http://www.omdbapi.com/.
+    Create a .env local file and set api key to OMDB_API_KEY.
+
+4. Run the development server:
 
     ```bash
     npm run dev
